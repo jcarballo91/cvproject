@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.name {
+  background-color: rgb(212, 213, 214);
+}
+
+.left_info {
+  display: inline-block;
+  background-color: rgb(212, 213, 214);
+  width: 200px;
+  height: 200px;
+}
+
+.right_info {
+  display: inline-block;
+  background-color: rgb(212, 213, 214);
+  width: 200px;
+  height: 200px;
+  border: 1px solid gray;
+}
