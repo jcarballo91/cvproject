@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.name {
+  background-color: rgb(212, 213, 214);
+}
+
+.left_info {
+  background-color: rgb(212, 213, 214);
+}
+
+.right_info {
+  background-color: rgb(212, 213, 214);
+}
