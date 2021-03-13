@@ -4,19 +4,32 @@
 
 .name {
   background-color: rgb(212, 213, 214);
+  text-align: center;
 }
 
-.left_info {
-  display: inline-block;
-  background-color: rgb(212, 213, 214);
-  width: 200px;
-  height: 200px;
+.column1 {
+  background-color: beige;
+  float: left;
+  width: 50%;
+  text-align: center;
 }
 
-.right_info {
-  display: inline-block;
-  background-color: rgb(212, 213, 214);
-  width: 200px;
-  height: 200px;
-  border: 1px solid gray;
+.column2 {
+  background-color: rgb(156, 156, 152);
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+/*Celar floats after the columns*/
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: darkcyan;
+  text-align: center;
+  padding: 3px;
 }
